@@ -1,0 +1,19 @@
+Homework:
+Install GIT
+Make GITHUB account
+
+Virtual Environment (venv) is an isolated environment in a system which is used to separate out projects with different
+package versions in the same system.
+
+Commands related to venv
+1. python -m venv venv
+    => Creates a new virtual environment with name "venv"
+
+2. venv\Scripts\activate
+    => Activates the venv
+
+3. deactivate
+    => deactivates the virtual environment
+
+4. pip install <package_name>
+5. pip uninstall <package_name>
