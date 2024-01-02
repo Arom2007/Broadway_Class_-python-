@@ -1,1 +1,31 @@
-this part will most probably not be committed
+1. Git is a version control system
+
+
+Git config setup commands
+1. git config --global user.name "<username>"
+2. git config --global user.email "<email>"
+
+Git Commands
+1. git init
+    => Initializes a repository (repo)
+
+2. git add .
+    => tracks all the untracked files in a repo
+
+3. git commit -m "<commit_message>"
+    => commits the tracked files
+
+4. git branch
+    => it lists all the branches and highlights the current branch
+
+5. git remote add origin <ssh-link>
+    => Connects the local repo with the remote repo
+
+6. git remote -v
+    => lists all the remote repos links
+
+7. git push -u origin main
+
+8. git clone <ssh_link>
+
+9. git pull origin main
