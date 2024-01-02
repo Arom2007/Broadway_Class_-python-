@@ -58,6 +58,7 @@ f = {}
 g = ""
 h = False
 i = None
+j=''
 
 print(bool(a))  # False
 print(bool(b))  # False
@@ -68,7 +69,7 @@ print(bool(f))  # False
 print(bool(g))  # False
 print(bool(h))  # False
 print(bool(i))  # False
-
+print(bool(j))  # False
 
 if a:
     print("a is non empty")
