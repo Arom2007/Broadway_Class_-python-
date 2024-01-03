@@ -35,3 +35,5 @@ for x in strings1:
     if len(x) >= 2 and x[0] == x[-1]:
         count += 1
 print("The number of strings in the list with 2 or more letters and the first and last letter being the same is " + str(count))
+
+# WAP to get a list , sorted in increasing order by the last element in each tuple from a list of non empty tuples.
