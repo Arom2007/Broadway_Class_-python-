@@ -28,4 +28,4 @@ Git Commands
 
 8. git clone <ssh_link>
 
-9. git pull origin main
+9. git pull -u origin main
