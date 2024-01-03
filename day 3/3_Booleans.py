@@ -9,8 +9,7 @@
 # 4. Identity Operation (is, is not)
 
 
-# Booleans are the sub-class of integers in python where True equals to 1
-# and False equals to 0
+# Booleans are the subclass of integers in python where True equals to 1 and False equals to 0.
 
 result = True + True
 print(result)  # 2
@@ -59,6 +58,7 @@ f = {}
 g = ""
 h = False
 i = None
+j=''
 
 print(bool(a))  # False
 print(bool(b))  # False
@@ -69,7 +69,7 @@ print(bool(f))  # False
 print(bool(g))  # False
 print(bool(h))  # False
 print(bool(i))  # False
-
+print(bool(j))  # False
 
 if a:
     print("a is non empty")
