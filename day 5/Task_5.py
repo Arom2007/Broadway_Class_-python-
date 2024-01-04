@@ -10,4 +10,4 @@ if hours - 40.0 <= 0:
 elif hours-40.0 > 0:
     gross_pay *= (40 * rate_per_hour) + ((hours - 40) * (rate_per_hour * 1.5))
 
-print(f"The gross pay for the individual is Rs.{gross_pay}")
+print(f"The gross pay for the individual is Rs.{gross_pay} for working {hours} hours.")
