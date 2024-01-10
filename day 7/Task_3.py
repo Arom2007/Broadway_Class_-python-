@@ -20,8 +20,8 @@ class Employees(Person):
 
     def get_details(self):
         return f"Name of employee is {self.name}, Age of employee is {self.age}, " \
-                f"Salary of employee is {self.salary} and Designation of employee is {self.designation}"
+               f"Salary of employee is {self.salary} and Designation of employee is {self.designation}"
 
 
-employee1 = Employees(name = "Ram", age = 33, salary = "Rs. 35,000", designation = "HRM")
+employee1 = Employees(name="Ram", age=33, salary="Rs. 35,000", designation="HRM")
 print(employee1.get_details())
