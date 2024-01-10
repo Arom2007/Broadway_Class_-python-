@@ -1,6 +1,11 @@
 # Classes are the blueprints of an object
 # Objects are the instance of a class
 
+# There are four pillars of OOP
+# Inheritance
+# Encapsulation
+# Polymorphism
+# Abstraction
 
 class Person:
     # We can write either properties or methods inside a class
