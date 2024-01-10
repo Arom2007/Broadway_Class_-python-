@@ -28,15 +28,15 @@ print("Reverse of the given string is " + reverse("Aroma"))
 
 
 # Write a python function to check whether a given number falls within a given range.
-def is_in_range(numb, ran):
-    if numb in ran:
+def is_in_range(num, ran):
+    if num in ran:
         return "Number is in range."
     else:
         return "Number is not in range."
 
 
-numb = int(input("Enter a number: "))
-in_range = is_in_range(numb, range(1, 100))
+num = 34
+in_range = is_in_range(num, range(1, 100))
 print(in_range)
 
 
@@ -69,3 +69,77 @@ def case_counter(string1):
 upper_count, lower_count = case_counter("The quick Brown Fox")
 print(f"Number of uppercase characters is", upper_count, "and lower is ", lower_count)
 
+
+# Write a python function to reverse a string.
+def reverser(string2):
+    rev_string = ""
+    n = -1
+    for x in string2:
+        rev_string += string2[n]
+        n -= 1
+    return rev_string
+
+
+s1 = reverser("Hello")
+print(s1)
+
+
+# Write a Python function that takes a list and returns a new list with distinct elements from the first list.
+def distinct(list1):
+    distinct_list = []
+    for x in list1:
+        if x not in distinct_list:
+            distinct_list.append(x)
+    return distinct_list
+
+
+lest = distinct([1, 2, 3, 3, 3, 3, 4, 5])
+print(lest)
+
+
+# Write a Python function that takes a number as a parameter and checks whether the number is prime or not.
+def prime_checker(number_sample):
+    count = 2
+    div = 0
+    while count < number_sample:
+        if number_sample % count == 0:
+            div += 1
+        count += 1
+    if div > 1:
+        return "Number is not a prime number"
+    else:
+        return "Number is a prime number"
+
+
+prime1 = prime_checker(11)
+print(prime1)
+
+
+# Write a Python program to print the even numbers from a given list.
+def even_sorter(num_list):
+    sorted_list = []
+    for x in num_list:
+        if x % 2 == 0:
+            sorted_list.append(x)
+    return sorted_list
+
+
+num_list1 = even_sorter([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+print(num_list1)
+
+#  Write a Python function that checks whether a passed string is a palindrome or not.
+def palindrome(string_test):
+    a = string_test
+    b = ""
+    count = -1
+    for letter in string_test:
+        b += string_test[count]
+        count -= 1
+    if a == b:
+        return "String is a palindrome."
+    else:
+        return "String is not a palindrome."
+
+
+test = palindrome("bad")
+print(test)
