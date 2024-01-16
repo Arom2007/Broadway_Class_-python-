@@ -1,0 +1,13 @@
+1. What is Django?
+=> Django is a python web framework.
+=> We can build web applications using Django
+
+2. What is website and a webapp?
+=> Website is simply a information page in the browser whereas webapp is an application in the browser where
+   users can make interactions with the server and database.
+
+3. Why do we need Web Framework?
+=> So that we do not have to repeat the baseline codes everytime we create a new web application
+
+4. What are other python web frameworks?
+   => Flask, FastAPI, Pyramid etc.
