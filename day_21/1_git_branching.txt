@@ -1,0 +1,14 @@
+# Git Branching Commands
+
+1. git branch
+    - It lists all the branches and highlights the current branch.
+
+2. git branch <new_branch_name>
+    - It creates a new branch with the provided name.
+
+3. git checkout <branch_name>
+    - It jumps to the specified branch.
+
+4. git checkout -b <new_branch_name>
+    - It creates a new branch and jumps to the newly created branch.
+
